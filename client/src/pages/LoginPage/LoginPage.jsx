@@ -50,9 +50,10 @@ const LoginPage = ({ setIsLoggedIn }) => {
       <form onSubmit={handleSubmit} className="login-form">
         <p className='login-instruction'>Please select the user type</p>
         <div className="user-type-selection">
-          
+
           <label className="user-type-label">
             <input
+              id="tick_mark"
               type="radio"
               name="userType"
               value="doctor"
@@ -62,9 +63,10 @@ const LoginPage = ({ setIsLoggedIn }) => {
             /> Doctor
           </label>
           <hr></hr>
-          
+
           <label className="user-type-label">
             <input
+              id="tick_mark"
               type="radio"
               name="userType"
               value="hospital"
