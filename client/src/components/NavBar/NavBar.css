@@ -1,6 +1,6 @@
 /* Default Styles (Desktop) */
 .navbar {
-    background-color: #100078; /* Updated color */
+    background: linear-gradient(135deg,#100078, #1a0c78); /* Updated color */
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;

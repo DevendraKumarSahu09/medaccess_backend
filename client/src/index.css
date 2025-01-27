@@ -5,12 +5,11 @@
 :root {
     --p-color: #0F2167;
     --hover-color:#00B8D9;
-    
 }
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lato', serif ;
+    font-family: 'Lato', serif;
 }

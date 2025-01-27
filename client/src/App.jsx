@@ -59,8 +59,9 @@ const App = () => {
         <Route path="/signup/hospitalsignup" element={<UserLayout><HospitalSignUp /></UserLayout>} />
         <Route path="/signup/doctorsignup" element={<UserLayout><DoctorSignUp /></UserLayout>} />
 
-        
-        
+
+
+
 
 
         {/* Private Routes */}
