@@ -109,7 +109,7 @@ const BloodBankPage = () => {
         </aside>
 
         <main className="main-content">
-          <h1 className="page-title">Blood Bank Inventory</h1>
+          <h1 className="page-titleb">Blood Bank Inventory</h1>
           <div className="card-container">
             {filteredBloodData.map((blood, index) => (
               <BloodBankCard key={index} blood={blood} />

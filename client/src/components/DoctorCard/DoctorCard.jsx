@@ -45,7 +45,7 @@ const DoctorCard = ({ doctor }) => {
       </div>
 
       <div className="doctor-info">
-        <h2 className="doctor-name">{doctor.name}</h2>
+        <h2 className="doctor-name">{doctor.fullName}</h2>
 
         <div className="info-grid">
           <div className="info-item">
@@ -55,12 +55,12 @@ const DoctorCard = ({ doctor }) => {
 
           <div className="info-item">
             <Hospital size={16} className="info-icon" />
-            <span>{doctor.hospital}</span>
+            <span>{doctor.experience}</span>
           </div>
 
           <div className="info-item">
             <Phone size={16} className="info-icon" />
-            <span>{doctor.contact}</span>
+            <span>{doctor.websiteUrl}</span>
           </div>
         </div>
       </div>

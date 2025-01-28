@@ -7,7 +7,7 @@ const AboutPage = () => {
     <div className="about-container">
       {/* Hero Section */}
       <div className="about-hero">
-        <h1>About MediCare</h1>
+        <h1>About MedAccess</h1>
         <p className="hero-subtitle">Committed to Excellence in Healthcare</p>
       </div>
 
