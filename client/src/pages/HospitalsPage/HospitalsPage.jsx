@@ -64,7 +64,7 @@ const HospitalsPage = () => {
   const filteredHospitals = searchTerm.trim() === ''
     ? hospitals
     : hospitals.filter(hospital =>
-        hospital.name?.toLowerCase().includes(searchTerm.toLowerCase().trim())
+        hospital.hospitalName?.toLowerCase().includes(searchTerm.toLowerCase().trim())
       );
 
   return (

@@ -64,7 +64,7 @@ const DoctorsPage = () => {
   const filteredDoctors = searchTerm.trim() === ''
     ? doctors
     : doctors.filter(doctor =>
-        doctor.name?.toLowerCase().includes(searchTerm.toLowerCase().trim()) ||
+        doctor.fullName?.toLowerCase().includes(searchTerm.toLowerCase().trim()) ||
         doctor.specialization?.toLowerCase().includes(searchTerm.toLowerCase().trim())
       );
 

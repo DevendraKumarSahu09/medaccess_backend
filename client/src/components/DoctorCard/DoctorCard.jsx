@@ -38,7 +38,7 @@ const DoctorCard = ({ doctor }) => {
   return (
     <div className="doctor-card">
       <div className="image-wrapper">
-        <img src={imageUrl} alt={doctor.name} className="doctor-image" />
+        <img src={imageUrl} alt={doctor.fullName} className="doctor-image" />
         <div className="doctor-specialty-badge">
           {doctor.specialization}
         </div>
