@@ -14,7 +14,7 @@ const AboutPage = () => {
       {/* Mission Section */}
       <section className="mission-section">
         <h2>Our Mission</h2>
-        <p>At MediCare, we are dedicated to providing accessible, high-quality healthcare services to our community. Our mission is to improve lives through innovative medical solutions and compassionate care.</p>
+        <p>At MedAccess, our mission is to revolutionize healthcare accessibility by providing a seamless, user-friendly platform that connects individuals, healthcare practitioners, medical providers, and health centers. We strive to empower users with real-time access to hospital resources, doctor schedules, and critical medical services such as blood availability and emergency care. By enabling hospitals and solo practitioners to register and expand their reach, we aim to create a more connected, efficient, and responsive healthcare ecosystem for everyone.</p>
       </section>
 
       {/* Features Section */}
@@ -47,7 +47,7 @@ const AboutPage = () => {
       {/* History Section */}
       <section className="history-section">
         <h2>Our Journey</h2>
-        <p>Founded in 2010, MediCare has grown from a small clinic to a comprehensive healthcare network. We've served over 100,000 patients and continue to expand our services to meet the growing healthcare needs of our community.</p>
+        <p style={{color:"#7E5DC6"}}>MedAccess began with a vision to bridge the gap between patients and healthcare at VIT Bhopal University we head to this by leveraging technology to streamline access to essential medical services. Recognizing the challenges people face in finding hospitals, booking doctor appointments, and locating critical resources like blood availability, we set out to create a platform that simplifies healthcare navigation. Through continuous innovation and collaboration with healthcare professionals, we have built a system that not only enhances accessibility but also improves efficiency for hospitals and solo practitioners. Our journey is driven by a commitment to making quality healthcare more accessible, connected, and responsive for everyone.</p>
       </section>
 
       {/* Values Section */}

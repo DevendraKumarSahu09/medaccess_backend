@@ -100,7 +100,7 @@ const DoctorsPage = () => {
         ) : (
           <>
             <div className="results-info">
-              <p>Found {filteredDoctors.length} doctors</p>
+              <p className='sub-para'>Found {filteredDoctors.length} doctors</p>
             </div>
 
             <div className="doctor-cards-container">
@@ -110,7 +110,7 @@ const DoctorsPage = () => {
                 ))
               ) : (
                 <div className="no-results">
-                  <p>No doctors found matching your search criteria.</p>
+                  <p className='sub-para'>No doctors found matching your search criteria.</p>
                 </div>
               )}
             </div>

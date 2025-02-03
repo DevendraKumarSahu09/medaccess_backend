@@ -4,7 +4,8 @@
 
 :root {
     --p-color: #0F2167;
-    --hover-color:#00B8D9;
+    /* --hover-color:#00B8D9;   old style */
+    --hover-color:#AFA2FF;
 }
 
 *{

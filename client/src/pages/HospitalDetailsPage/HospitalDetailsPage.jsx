@@ -190,7 +190,7 @@ const HospitalDetailsPage = () => {
 
     const imageUrl = !hospital.profilePhoto
         ? `/uploads/hospitals/${hospital._id}/${hospital.profilePhoto}`
-        : 'https://i.pinimg.com/736x/b7/98/c9/b798c9b37babf75f4d136fe4dbf8e771.jpg';
+        : 'https://plus.unsplash.com/premium_photo-1672097247893-4f8660247b1f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ';
 
     return (
         <div className="hospital-page">
@@ -244,7 +244,9 @@ const HospitalDetailsPage = () => {
                     <section className="info-section">
                         <h2>About Us</h2>
                         <div className="info-section__content">
-                            <p>{hospital.about}</p>
+                            <p>{hospital.hospitalName} is a leading healthcare institution dedicated to providing high-quality medical care with compassion and expertise. Equipped with state-of-the-art technology and a team of experienced doctors, nurses, and specialists, we offer a wide range of medical services, including cardiology, orthopedics, neurology, oncology, and maternity care. Our hospital operates 24/7, ensuring that patients receive immediate and effective treatment, whether for routine check-ups, emergency care, or specialized procedures.
+
+With a patient-first approach, we focus on personalized treatment, affordability, and accessibility, making quality healthcare available to all. Our commitment to excellence extends beyond treatment to research, innovation, and community health initiatives. At [Hospital Name], we strive to create a comfortable and safe environment where every patient receives the best possible care for a healthier future.</p>
                         </div>
                     </section>
 

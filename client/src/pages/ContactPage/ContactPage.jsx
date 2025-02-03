@@ -28,7 +28,7 @@ const ContactPage = () => {
       {/* Contact Hero */}
       <div className="contact-hero">
         <h1>Contact Us</h1>
-        <p>We're here to help and answer any questions you might have</p>
+        <p className='ptxt'>We're here to help and answer any questions you might have</p>
       </div>
 
       <div className="contact-content">
@@ -44,8 +44,8 @@ const ContactPage = () => {
           <div className="info-card">
             <Mail className="info-icon" />
             <h3>Email</h3>
-            <p>info@medicare.com</p>
-            <p>support@medicare.com</p>
+            <p>info@medaccess.com</p>
+            <p>support@medaccess.com</p>
           </div>
 
           <div className="info-card">

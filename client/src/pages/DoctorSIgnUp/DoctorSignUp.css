@@ -30,7 +30,7 @@
 
 .form-title {
     text-align: center;
-    color: #000860;
+    color: #1a237e;
     font-size: 2rem;
     margin-bottom: 2rem;
     font-weight: 700;
@@ -91,7 +91,7 @@
 }
 
 .progress-step.completed .step-number {
-    background: #00ac45;
+    background: #00cd0a;
     color: white;
 }
 
@@ -353,7 +353,7 @@
 
 /* Validation States */
 .form-input:invalid:not(:placeholder-shown) {
-    border-color: #ef4444;
+    border-color: #525252;
 }
 
 .form-input:valid:not(:placeholder-shown) {

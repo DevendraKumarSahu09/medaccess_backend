@@ -4,7 +4,14 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State to toggle menu
+  const [activeButton, setActiveButton] = useState(null);
   const navigate = useNavigate();
+
+
+    const handleButtonClick = (button) => {
+        setActiveButton(button);
+    };
+
 
 
 
@@ -47,8 +54,21 @@ const Navbar = () => {
         </ul>
 
         <div className="auth-buttons">
-          <Link to="/login" className="login-btn">Login</Link>
-          <Link to="/signup" className="signup-btn">Sign Up</Link>
+        <Link
+            to="/login"
+            className={`login-btn ${activeButton === 'login' ? 'active' : ''}`}
+            onClick={() => handleButtonClick('login')}
+            >
+            Login
+            </Link>
+            <Link
+            to="/signup"
+            className={`signup-btn ${activeButton === 'signup' ? 'active' : ''}`}
+            onClick={() => handleButtonClick('signup')}
+            >
+            Sign Up
+            </Link>
+
         </div>
       </div>
     </nav>

@@ -92,7 +92,7 @@ const HospitalsPage = () => {
           ))
         ) : (
           <div className="no-results">
-            <p>No hospitals found matching your search.</p>
+            <p className='sub-para'>No hospitals found matching your search.</p>
           </div>
         )}
       </div>

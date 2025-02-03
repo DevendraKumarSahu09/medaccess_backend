@@ -58,10 +58,10 @@ const DoctorCard = ({ doctor }) => {
             <span>{doctor.experience}</span>
           </div>
 
-          <div className="info-item">
+          {/* <div className="info-item">
             <Phone size={16} className="info-icon" />
             <span>{doctor.websiteUrl}</span>
-          </div>
+          </div> */}
         </div>
       </div>
 

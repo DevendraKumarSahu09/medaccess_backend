@@ -7,7 +7,7 @@ import './HospitalCard.css';
 const HospitalCard = ({ hospital }) => {
   const imageUrl = !hospital.profilePhoto
     ? `/uploads/hospitals/${hospital._id}/${hospital.profilePhoto}`
-    : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIa7Hghwr_3y1fHcUnR7RVkS2M3YWTFzBuGQ&s';  // Fallback hospital image
+    : 'https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ';  // Fallback hospital image
 
   return (
     <div className="hospital-card">

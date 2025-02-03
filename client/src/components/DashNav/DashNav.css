@@ -69,7 +69,8 @@
 }
 
 .nav-links .active-link {
-    color: #00B8D9;
+    /* color: #00B8D9; */
+    color: #AFA2FF;
 }
 
 .auth-buttons {
@@ -85,16 +86,7 @@
     transition: background-color 0.3s ease;
 }
 
-.login-btn {
-    background-color: white;
-    color: var(--p-color);
-}
 
-.signup-btn {
-    background-color: transparent;
-    color: white;
-    border-color: white;
-}
 
 .auth-buttons button:hover {
     background-color: var(--hover-color);

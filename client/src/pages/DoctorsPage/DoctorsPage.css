@@ -51,6 +51,11 @@ h1 {
     font-size: 1.2rem;
     opacity: 0.9;
     margin-bottom: 32px;
+    color: #AFA2FF;
+}
+
+.sub-para{
+    color: #AFA2FF;
 }
 
 .search-wrapper {
