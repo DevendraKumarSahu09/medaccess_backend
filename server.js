@@ -35,6 +35,25 @@ app.use(cors({
 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+// Root route
+app.get('/', (req, res) => {
+  res.json({ 
+    success: true, 
+    message: 'MedAccess API is running', 
+    version: '1.0.0',
+    endpoints: [
+      '/api/auth',
+      '/api/blood-bank',
+      '/api/beds',
+      '/api/hospitaldoctors',
+      '/api/users',
+      '/api/pharmacy',
+      '/api/nonmedicalstaff',
+      '/api/dashboard'
+    ]
+  });
+});
+
 // MongoDB Connection
 mongoose.connect(process.env.MONGO_URI)
     .then(() => console.log('MongoDB Connected'))
