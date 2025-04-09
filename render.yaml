@@ -3,7 +3,7 @@ services:
     name: medaccess-backend
     runtime: node
     plan: free
-    buildCommand: npm install
+    buildCommand: npm install --legacy-peer-deps
     startCommand: node server.js
     envVars:
       - key: MONGO_URI
